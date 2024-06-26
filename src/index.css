@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 2rem;
+  font-family: 'Montserrat', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: unset;
+}
+
+.main {
+  margin: 5rem;
+}
+
+.input__box textarea {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  min-height: 12rem;
+  width: 500px;
+  border: 1px solid #000;
+  outline: 0;
+  border-radius: 10px;
+
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: inherit;
+  resize: none;
+}
+
+.input__box textarea:focus {
+  border: 2px solid #000;
+}
+
+.input__box textarea:disabled {
+  border: 1px solid #ccc;
+  cursor: not-allowed;
+}
+
+.gemini__prompt {
+  font-size: 2rem;
+  max-width: 550px;
+}
+
+.gemini__prompt h1 {
+  margin-bottom: 1rem;
+}
+
+.mode {
+  margin-bottom: 1rem;
+  width: fit-content;
+  display: flex;
+  gap: 1rem;
+
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.mode div {
+  padding: 0.8rem;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.mode div.active {
+  background-color: #fff;
+}
+
+.mode p {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: gray;
+  font-weight: 600;
+}
+
+.mode div.active p {
+  color: #000;
+}
+
+.time-taken {
+  width: fit-content;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.socials {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
