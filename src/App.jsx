@@ -87,7 +87,7 @@ const App = () => {
       </div>
 
       <div className="socials">
-        <a href="https://github.com/mur073/chrome-canary-ai" target="_blank">
+        <a href="https://github.com/mur073/chrome-canary-ai/blob/main/README.md" target="_blank">
           <RiGithubFill width={50} height={50} />
         </a>
       </div>
